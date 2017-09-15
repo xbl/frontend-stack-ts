@@ -18,6 +18,9 @@ class Sider extends React.Component<Poprs, {}> {
           <li>
             <NavLink to="/profile" styleName="link" activeClassName={styles['link-active']}>Profile</NavLink>
           </li>
+          <li>
+            <NavLink to="/startExamination" styleName="link" activeClassName={styles['link-active']}>开启考试</NavLink>
+          </li>
         </ul>
         <ul styleName="footer">
           <li>

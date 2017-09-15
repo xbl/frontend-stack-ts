@@ -15,6 +15,7 @@ import Signin from './components/signIn'
 import Sider from './components/sider'
 import Home from './components/home'
 import Profile from './components/profile'
+import ExaminationConfig from './components/examinationConfig'
 
 import reducers from './reducers'
 import registerServiceWorker from './registerServiceWorker'
@@ -43,6 +44,7 @@ ReactDOM.render(
                         <Route path="/" component={Home}/>
                         <Route path="/home" component={Home}/>
                         <Route path="/profile" component={Profile}/>
+                        <Route path="/startExamination" component={ExaminationConfig}/>
                     </div>
                 </App>
             </MuiThemeProvider>
